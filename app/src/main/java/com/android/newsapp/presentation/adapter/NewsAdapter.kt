@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.android.newsapp.databinding.ItemNewsBinding
 import com.android.newsapp.domain.models.Article
+import com.android.newsapp.presentation.util.helpers.DateParser
 import com.bumptech.glide.Glide
 
 /**
@@ -52,7 +53,7 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
                 articleSource.text = article.source.name
                 articleTitle.text = article.title
                 articleDescription.text = article.description
-                articleDateTime.text = article.publishedAt
+                articleDateTime.text = DateParser.convertDate(article.publishedAt)
 
                 // Set click listener to trigger the item click callback
                 root.setOnClickListener {

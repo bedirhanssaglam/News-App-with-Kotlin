@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="headlines">Headlines</string>
+    <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_description">contentDescription</string>
+    <string name="no_internet">No Internet!</string>
+    <string name="retry">Retry</string>
+    <string name="search_news">Search news...</string>
+    <string name="source">SOURCE</string>
+    <string name="added_to_favorites">Added to favorites.</string>
+    <string name="sorry_error">Sorry! Error : %1$s</string>
+    <string name="removed_from_favorites">Removed from favorites.</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="no_data_available">No data available</string>
+    <string name="network_failure">Network failure.</string>
+    <string name="undo">Undo</string>
+</resources>
